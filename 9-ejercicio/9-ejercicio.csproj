@@ -10,10 +10,10 @@
 
   <ItemGroup>
     <Folder Include="Menus\" />
-    <Folder Include="Modules\" />
-    <Folder Include="Modules\Participants\" />
     <Folder Include="Modules\Participants\Models\" />
     <Folder Include="Modules\Participants\Services\" />
+    <Folder Include="Modules\Workshops\services\" />
+    <Folder Include="Modules\Workshops\services\models\" />
   </ItemGroup>
 
 </Project>

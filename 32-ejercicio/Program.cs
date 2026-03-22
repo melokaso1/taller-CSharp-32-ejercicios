@@ -137,15 +137,15 @@ namespace RouteOptimizer
             // E → F = 3
             // D → F = 6
 
-            graph.AddEdge("A", "B", 4);
-            graph.AddEdge("A", "C", 2);
-            graph.AddEdge("B", "D", 5);
-            graph.AddEdge("C", "B", 1);
-            graph.AddEdge("C", "D", 8);
-            graph.AddEdge("C", "E", 10);
-            graph.AddEdge("D", "E", 2);
-            graph.AddEdge("E", "F", 3);
-            graph.AddEdge("D", "F", 6);
+            graph.AddEdge("A", "B", 4, bidirectional: true);
+            graph.AddEdge("A", "C", 2, bidirectional: true);
+            graph.AddEdge("B", "D", 5, bidirectional: true);
+            graph.AddEdge("C", "B", 1, bidirectional: true);
+            graph.AddEdge("C", "D", 8, bidirectional: true);
+            graph.AddEdge("C", "E", 10, bidirectional: true);
+            graph.AddEdge("D", "E", 2, bidirectional: true);
+            graph.AddEdge("E", "F", 3, bidirectional: true);
+            graph.AddEdge("D", "F", 6, bidirectional: true);
 
             while (true)
             {
